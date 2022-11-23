@@ -1,6 +1,6 @@
 {
   "name": "vshn-afterwriting",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Docker image wrapping the afterwriting Fountain-to-PDF utility",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "Adrian Kosmaczewski",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "afterwriting": "^1.12.7"
+    "afterwriting": "^1.17.3"
   }
 }
