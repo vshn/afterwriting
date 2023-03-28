@@ -10,5 +10,5 @@ NOTE: The version number of the Docker image matches the version of Afterwriting
 
 To create the PDF version of a Fountain screenplay, use the following command:
 
-`docker run --rm --user "$(id -u)" --volume "$(pwd)":/image ghcr.io/vshn/afterwriting:1.17.3 --source /image/presentation.fountain --pdf /image/test.pdf`
+`podman run --rm --volume "$(pwd)":/image ghcr.io/vshn/afterwriting-docker:1.17.3 --source /image/presentation.fountain --pdf /image/test.pdf`
 
